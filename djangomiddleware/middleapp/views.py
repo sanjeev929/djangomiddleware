@@ -2,8 +2,13 @@ from django.shortcuts import render,HttpResponse
 
 # Create your views here.
 def index(request):
-    print("view1")
     return HttpResponse("hello world!!!")
 def hello(request):
-    print("view2")
     return HttpResponse("hello accepted!!!")
+def viewlogs(request):
+    with open('C:/Users/SANJEEV/Documents/GitHub/my project/djangomiddleware/djangomiddleware/logfile.log', 'r') as log_file:
+        log_content = log_file.read()
+    return HttpResponse(log_content, content_type='text/plain')
+
+def auth(request):
+    return HttpResponse("auth succesfull")
