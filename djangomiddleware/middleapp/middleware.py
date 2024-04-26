@@ -45,17 +45,11 @@ def checkmiddle3(get_response):
 def checkmiddle4(get_response):
     def middleware4(request):
         if request.method == 'GET':
-            print("+++++++++++come")
             cached_response = cache.get(request.path)
-            print(cached_response)
             if cached_response:
-                print("cache yes")
                 return cached_response
         response = get_response(request)
-
-        print(response)
         if request.method == 'GET' and response.status_code == 200:
-            print("200")
             cache.set(request.path, response, timeout=10)
         return response
 

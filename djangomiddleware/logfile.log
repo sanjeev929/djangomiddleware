@@ -14580,3 +14580,17 @@ Forbidden: /
 "GET / HTTP/1.1" 403 44
 C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\djangomiddleware\settings.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 6651
+"GET / HTTP/1.1" 200 6651
+"GET / HTTP/1.1" 200 6651
+"GET / HTTP/1.1" 200 6651
+"GET / HTTP/1.1" 200 6651
+"GET / HTTP/1.1" 200 6651
+"GET / HTTP/1.1" 200 6651
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
