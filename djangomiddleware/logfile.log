@@ -1,0 +1,192 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2786
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\djangomiddleware\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\djangomiddleware\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 17
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 28
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 21
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py", line 64, in middleware5
+    print(response.content)
+          ^^^^^^^^^^^^^^^
+AttributeError: 'HttpResponse' object has no attribute 'contet'. Did you mean: 'content'?
+"GET /hello/ HTTP/1.1" 500 62284
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 21
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 39
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hello/ HTTP/1.1" 200 39
+"GET / HTTP/1.1" 200 36
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 35
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 35
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\SANJEEV\Documents\GitHub\my project\djangomiddleware\djangomiddleware\middleapp\middleware.py changed, reloading.
+Watching for file changes with StatReloader

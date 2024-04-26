@@ -1,10 +1,13 @@
 from django.shortcuts import render,HttpResponse
 
-# Create your views here.
+
 def index(request):
-    return HttpResponse("hello world!!!")
+    return HttpResponse("Process Start")
+
 def hello(request):
-    return HttpResponse("hello accepted!!!")
+    print("yes")
+    return HttpResponse("hello world!!!")
+
 def viewlogs(request):
     with open('C:/Users/SANJEEV/Documents/GitHub/my project/djangomiddleware/djangomiddleware/logfile.log', 'r') as log_file:
         log_content = log_file.read()

@@ -1,7 +1,8 @@
 import logging
 from django.utils import timezone
 from django.http import HttpResponseForbidden,HttpResponseBadRequest
-
+from django.core.cache import cache
+from django.http import HttpResponse,HttpResponseServerError
 
 logger = logging.getLogger(__name__)
 request_counts = {}
@@ -37,3 +38,42 @@ def checkmiddle3(get_response):
         return response
 
     return middleware3
+
+def checkmiddle4(get_response):
+    def middleware4(request):
+        if request.method == 'GET':
+            print("+++++++++++come")
+            cached_response = cache.get(request.path)
+            print(cached_response)
+            if cached_response:
+                print("cache yes")
+                return cached_response
+        response = get_response(request)
+
+        print(response)
+        if request.method == 'GET' and response.status_code == 200:
+            print("200")
+            cache.set(request.path, response, timeout=30)
+        return response
+
+    return middleware4
+
+def checkmiddle5(get_response):
+    def middleware5(request):
+        response = get_response(request)
+        text_content = response.content.decode('utf-8')
+        modified_response = HttpResponse(f'This is modified text {text_content}', content_type='text/html')
+        return modified_response
+    return middleware5
+
+def checkmiddle6(get_response):
+    def middleware6(request):
+        try:
+            response = get_response(request)
+        except Exception as e:
+            logger.exception('An error occurred:')
+            return HttpResponseServerError('An error occurred. Please try again later.', status=500)
+        
+        return response
+
+    return middleware6
