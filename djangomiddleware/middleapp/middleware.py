@@ -59,8 +59,9 @@ def checkmiddle5(get_response):
     def middleware5(request):
         response = get_response(request)
         text_content = response.content.decode('utf-8')
-        modified_response = HttpResponse(f'This is modified text {text_content}', content_type='text/html')
-        return modified_response
+        if response['Content-Type'] == 'text/html':
+            response = HttpResponse(f'This is modified text {text_content}', content_type='text/html')
+        return response
     return middleware5
 
 def checkmiddle6(get_response):
