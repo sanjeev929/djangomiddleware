@@ -52,6 +52,8 @@ MIDDLEWARE = [
     'middleapp.middleware.checkmiddle3',
     'middleapp.middleware.checkmiddle4',
     'middleapp.middleware.checkmiddle5',
+    'middleapp.middleware.checkmiddle6',
+    # 'middleapp.middleware.checkmiddle7',
 
 
 ]

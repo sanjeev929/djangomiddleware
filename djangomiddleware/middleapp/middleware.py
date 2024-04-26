@@ -3,6 +3,9 @@ from django.utils import timezone
 from django.http import HttpResponseForbidden,HttpResponseBadRequest
 from django.core.cache import cache
 from django.http import HttpResponse,HttpResponseServerError
+import gzip
+from io import BytesIO
+
 
 logger = logging.getLogger(__name__)
 request_counts = {}
@@ -53,7 +56,7 @@ def checkmiddle4(get_response):
         print(response)
         if request.method == 'GET' and response.status_code == 200:
             print("200")
-            cache.set(request.path, response, timeout=30)
+            cache.set(request.path, response, timeout=10)
         return response
 
     return middleware4
@@ -77,3 +80,29 @@ def checkmiddle6(get_response):
         return response
 
     return middleware6
+
+def checkmiddle7(get_response):
+    def middleware7(request):
+        def compress_response(response):
+            content = response.content
+            if response.get('Content-Encoding') == 'gzip':
+                compressed_buffer = BytesIO(content)
+                # decompressed_buffer = BytesIO()
+                # with gzip.GzipFile(fileobj=compressed_buffer, mode='rb') as gzip_file:
+                #     decompressed_buffer.write(gzip_file.read())
+                content = compressed_buffer.getvalue()
+
+            try:
+                content = content.decode('utf-8')
+            except UnicodeDecodeError:
+                return response
+            response.content = content
+
+            return response
+        response = get_response(request)
+        if 'text/' in response.get('Content-Type', ''):
+            response = compress_response(response)
+        
+        return response
+
+    return middleware7
